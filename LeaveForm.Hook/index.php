@@ -78,10 +78,6 @@
         $arrayPostData['messages'][1]['packageId'] = "1";
         $arrayPostData['messages'][1]['stickerId'] = "102";
         
-        if($userId=='U2490d2f2fbce5bd7ffe69275eb288bb7'){
-            $arrayPostData['messages'][2]['type'] = "text";
-            $arrayPostData['messages'][2]['text'] = "เจ้าจ๊อบ";            
-        }
         replyMsg($arrayHeader,$arrayPostData);
     }		
 	function replyMsg($arrayHeader,$arrayPostData){
